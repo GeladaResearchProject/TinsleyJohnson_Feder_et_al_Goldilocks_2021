@@ -22,7 +22,9 @@ vif.mer <- function (fit) {
   v
 }
 
-# There are 7 R objects:
+# There are 8 R objects:
+# dob_ranges: minimum and maximum estimated dobs; used to randomize dates within this range for survival analysis
+
 # female_survival: monthly female data, including the number of unit females, female age, and # of males, 
 # indicating whether the female survived (0) or died (1)
 
